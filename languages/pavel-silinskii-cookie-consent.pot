@@ -1,0 +1,157 @@
+# Copyright (C) 2026 Pavel Silinskii
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pavel Silinskii Cookie Consent 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pavel-silinskii-cookie-consent\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-03T00:00:00+00:00\n"
+"X-Domain: pavel-silinskii-cookie-consent\n"
+
+#. Plugin Name of the plugin
+msgid "Pavel Silinskii Cookie Consent"
+msgstr ""
+
+#. Description of the plugin
+msgid "Lightweight GDPR/CCPA cookie consent banner with bar and popup layouts, light/dark themes, and one-click accept/decline."
+msgstr ""
+
+#: includes/class-pscc-settings.php
+msgid "We use cookies"
+msgstr ""
+
+#: includes/class-pscc-settings.php
+msgid "This website uses cookies to ensure you get the best experience on our website."
+msgstr ""
+
+#: includes/class-pscc-settings.php
+msgid "Accept"
+msgstr ""
+
+#: includes/class-pscc-settings.php
+msgid "Decline"
+msgstr ""
+
+#: includes/class-pscc-settings.php admin/class-pscc-admin.php
+msgid "Privacy Policy"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Cookie Consent"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Cookie Consent Settings"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "General"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Banner Text"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Appearance"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Enable banner"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Show the cookie consent banner on the site"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Position"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Bottom"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Top"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Applies to the bar layout."
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Layout"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Bar"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Popup"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Title"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Text"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Accept button label"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Decline button label"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Show decline button"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Display the Decline button"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Privacy page"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Link text"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Style"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Light"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Dark"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Cookie duration (days)"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "Button color"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "— Select a page —"
+msgstr ""
+
+#: admin/class-pscc-admin.php
+msgid "You do not have permission to access this page."
+msgstr ""

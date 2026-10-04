@@ -1,0 +1,155 @@
+/* Base */
+#pscc-banner {
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#pscc-banner *,
+#pscc-banner *::before,
+#pscc-banner *::after {
+	box-sizing: border-box;
+}
+
+#pscc-banner.pscc-hidden,
+.pscc-hidden {
+	display: none !important;
+}
+
+/* Bar layout */
+.pscc-bar.pscc-bottom {
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.pscc-bar.pscc-top {
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.pscc-bar .pscc-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 16px 24px;
+	gap: 12px;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+.pscc-bar .pscc-content {
+	flex: 1 1 320px;
+}
+
+.pscc-bar .pscc-buttons {
+	margin-top: 0;
+}
+
+/* Popup layout */
+#pscc-banner.pscc-popup {
+	inset: 0;
+}
+
+.pscc-overlay {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 9998;
+}
+
+.pscc-popup .pscc-box {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 9999;
+	width: min(480px, 90vw);
+	border-radius: 8px;
+	padding: 32px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Themes */
+.pscc-light .pscc-box {
+	background: #ffffff;
+	color: #1a1a1a;
+}
+
+.pscc-dark .pscc-box {
+	background: #1a1a1a;
+	color: #f0f0f0;
+}
+
+/* Content */
+.pscc-title {
+	margin: 0 0 8px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.3;
+	color: inherit;
+}
+
+.pscc-text {
+	margin: 0 0 8px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.pscc-privacy {
+	margin: 0;
+	font-size: 14px;
+}
+
+.pscc-privacy a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+/* Buttons */
+.pscc-buttons {
+	display: flex;
+	gap: 8px;
+	flex-wrap: wrap;
+	margin-top: 16px;
+}
+
+.pscc-btn {
+	padding: 10px 20px;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+/* Background comes from the inline style (button_color setting). */
+.pscc-accept {
+	color: #ffffff;
+}
+
+.pscc-decline {
+	background: transparent;
+	color: inherit;
+	border: 1px solid currentColor;
+}
+
+.pscc-btn:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: 2px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+	.pscc-bar .pscc-box {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.pscc-bar .pscc-content {
+		flex-basis: auto;
+	}
+}

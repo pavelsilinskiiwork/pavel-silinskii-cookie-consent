@@ -1,0 +1,11 @@
+.pscc-admin-wrap h2 {
+	margin-top: 2em;
+	padding-top: 1em;
+	border-top: 1px solid #dcdcde;
+}
+
+.pscc-admin-wrap h2:first-of-type {
+	margin-top: 1em;
+	padding-top: 0;
+	border-top: none;
+}
