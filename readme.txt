@@ -27,7 +27,7 @@ The visitor's choice is stored in a single first-party cookie (`pscc_consent`) i
 * Consent remembered for 1–365 days
 * Custom Accept button color
 * No external requests, no tracking
-* GDPR and CCPA ready
+* Helps you collect cookie consent for GDPR and CCPA
 * Lightweight: vanilla JavaScript, no jQuery on the frontend, assets load only while the banner is shown
 
 == Installation ==
